@@ -1,0 +1,44 @@
+[
+  {
+    "name": "OpenRouter",
+    "description": "Единый API-шлюз с бесплатными моделями, помеченными суффиксом :free.",
+    "limits": "Лимиты запросов и доступность зависят от модели и аккаунта; бесплатные модели могут меняться.",
+    "url": "https://openrouter.ai/models?free=true",
+    "category": "Бесплатные модели"
+  },
+  {
+    "name": "Google Gemini",
+    "description": "Gemini API предоставляет бесплатный тариф для разработки и тестирования.",
+    "limits": "RPM, TPM и суточные квоты различаются по модели и проекту; актуальные значения — в документации.",
+    "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+    "category": "Бесплатный тариф"
+  },
+  {
+    "name": "Groq",
+    "description": "Бесплатный доступ к API-инференсу поддерживаемых открытых моделей.",
+    "limits": "Ограничения по запросам и токенам устанавливаются отдельно для каждой модели.",
+    "url": "https://console.groq.com/docs/rate-limits",
+    "category": "Бесплатный API"
+  },
+  {
+    "name": "Mistral AI",
+    "description": "Experiment-тариф Mistral API подходит для оценки моделей и разработки.",
+    "limits": "Есть ограничения по скорости и использованию; доступность и квоты могут зависеть от аккаунта.",
+    "url": "https://docs.mistral.ai/deployment/laplateforme/",
+    "category": "Experiment"
+  },
+  {
+    "name": "Pollinations",
+    "description": "Сервис генерации текста и изображений; некоторые API-сценарии доступны без API-ключа.",
+    "limits": "Не следует считать безлимитным или гарантированным API: условия, доступность и ограничения меняются.",
+    "url": "https://pollinations.ai/",
+    "category": "Без ключа"
+  },
+  {
+    "name": "OpenAI",
+    "description": "У OpenAI есть бесплатный план ChatGPT, но это не бесплатная квота API.",
+    "limits": "API оплачивается отдельно; пробные кредиты могут быть доступны не всем аккаунтам. Передача данных не делает API бесплатным.",
+    "url": "https://platform.openai.com/docs/pricing",
+    "category": "Уточнить условия"
+  }
+]
